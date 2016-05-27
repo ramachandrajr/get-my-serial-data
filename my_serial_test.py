@@ -45,6 +45,7 @@ def init_serial():
 
 # The real program starts here, the whole function is initiated here
 try:
+    # Try to initiate the whole program.
     init_serial()
 except KeyboardInterrupt:
     os.system("clear")
